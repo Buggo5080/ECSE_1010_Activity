@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-This is a single two input AND gate connected to an LED output.
+This circuit uses ANDs, NOTs, and ORs to turn D flip flops into JK flip flops and construct two of those "JK flip flops" into an asynchronous up counter.
 
 ## How to test
 
-Input binary values via switches and the LED indicates the output of the circuit.
+Make J and K one and see if the binary number created by Q1, Q0 as the clock cycles counts up by one continuously.
 
 ## External hardware
 
-Switches and an LED
+Switches and two LEDs
